@@ -1,0 +1,34 @@
+body {
+    background-color: aqua;
+}
+
+.card {
+    max-width: 450px;
+    max-height: 697px;
+    background-color: white;
+    align-items: center;
+    border-radius: 6%;
+}
+
+.card__imagem {
+
+}
+
+.card__imagem-ilustracao {
+    border-radius: 6% 6% 0 0;
+
+}
+
+.card__conteudo {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.card__conteudo-titulo {
+
+}
+
+.card__conteudo-texto {
+
+}

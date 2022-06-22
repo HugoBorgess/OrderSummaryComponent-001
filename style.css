@@ -1,21 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Red+Hat+Display:wght@500;600;700;900&display=swap');
+
 body {
-    background-color: aqua;
+    background-image: url('./images/pattern-background-desktop.svg');
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    background-size:contain;
+    background-position-x: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .card {
+    margin-top: 80px;
     max-width: 450px;
     max-height: 697px;
     background-color: white;
     align-items: center;
-    border-radius: 6%;
+    border-radius: 20px;
 }
 
 .card__imagem {
-
+    max-width: 450px;
+    max-height: 220px;
 }
 
 .card__imagem-ilustracao {
-    border-radius: 6% 6% 0 0;
+    border-radius: 20px 20px 0 0;
 
 }
 
@@ -26,9 +37,104 @@ body {
 }
 
 .card__conteudo-titulo {
-
+    margin-top: 45px ;
+    margin-bottom: 17px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 37px;
+    text-align: center;
+    color: #1F2E55;
 }
 
 .card__conteudo-texto {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #717FA6;
+    margin: 0 48px;
+    padding: 0 30px;
+}
 
+.card__plano {
+    background: #F7F9FF;
+    border-radius: 11px;;
+    margin: 20px 48px; 
+    display: flex;
+    align-items: center;
+}
+
+.card__plano___music {
+    width: 48px;
+    padding: 25px 20px 25px 24px;
+}
+
+.card__plano___conteudo {
+    display: flex;
+    flex-direction: column;
+}
+
+.card__plano___conteudo-titulo {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 21px;
+    color: #1F2E55;
+}
+
+.card__plano___conteudo-texto {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    color: #717FA6;
+}
+
+.card__plano-change {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-decoration-line: underline;
+    color: #382AE1;
+    padding: 0 24px 0 94px;
+}
+
+.card__pagamento {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__pagamento-button {
+    text-align: center;
+    width: 354px;
+    height: 50px;
+    background: #382AE1;
+    box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
+    border-color: #382AE1;
+    border-radius: 11px;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.card__pagamento-cancel {
+    margin: 32px auto 48px auto;
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 20px;
+    color: #717FA6;
 }

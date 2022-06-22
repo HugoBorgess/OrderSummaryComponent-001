@@ -6,6 +6,8 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link href="./reset.css" rel="stylesheet">
   <link href="./style.css" rel="stylesheet">
+  <link href="./active.css" rel="stylesheet">
+  <link href="./responsive.css" rel="stylesheet">
   
   <title>Frontend Mentor | Order summary card</title>
 
@@ -21,35 +23,24 @@
       <p class="card__conteudo-texto">You can now listen to millions of songs, audiobooks, and podcasts on any 
         device anywhere you like!</p>
     </div>
-    <div>
-      <img>
-      <div>
-        <h2></h2>
-        <p></p>
+    <div class="card__plano">
+      <img class="card__plano___music" alt="icone de musica" src="./images/icon-music.svg">
+      <div class="card__plano___conteudo">
+        <h2 class="card__plano___conteudo-titulo">Annual Plan</h2>
+        <p class="card__plano___conteudo-texto">$59.99/year</p>
       </div>
-      <p></p>
+      <a class="card__plano-change">Change</a>
     </div>
-    <button></button>
-    <a></a>
+    <div class="card__pagamento">
+      <button class="card__pagamento-button">Proceed to payment</button>
+      <a class="card__pagamento-cancel">Cancel Order</a>
+    </div>
+    
   </section>
-  <!--
-  Order Summary
-
-  You can now listen to millions of songs, audiobooks, and podcasts on any 
-  device anywhere you like!
-
-  Annual Plan
-  $59.99/year
-
-  Change
-
-  Proceed to Payment
-  Cancel Order
-  -->
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Hugo Borges</a>.
   </div>
 </body>
 </html>

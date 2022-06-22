@@ -1,0 +1,16 @@
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    .card {
+        margin-top: 80px;
+        max-width: 327px;
+        max-height: 567px;
+        background-color: white;
+        align-items: center;
+       border-radius: 20px;
+    }
+
+    .card__imagem {
+        max-width: 327px;
+        max-height: 160px;
+    }
+}
